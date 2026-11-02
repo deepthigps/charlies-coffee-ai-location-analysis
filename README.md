@@ -1,77 +1,107 @@
-# ☕ Charlie's Coffee — AI-Assisted Retail Analytics Dashboard
+# ☕ Charlie's Coffee | AI-Assisted Retail Analytics
 
-### From business questions to actionable insights using AI agents and cloud data tools
+**Exploring how AI agents and cloud data tools can turn business questions into actionable insights.**
 
-An interactive retail analytics dashboard built during **The Gen Academy's Google Data Agent Kit workshop**, using Codex, MCP tools, BigQuery, and Google Cloud.
+A hands-on AI and data analytics project developed during **The Gen Academy's Google Data Agent Kit workshop**.
+
+Using Codex, MCP-connected tools, BigQuery, and cloud data sources, I explored retail performance data and built an interactive dashboard to communicate business insights.
+
+### 🚀 [Explore the Live Dashboard](https://deepthigps.github.io/charlies-coffee-ai-location-analysis/charlies-dashboard.html)
 
 ## 🎯 Business Problem
 
-How can Charlie's Coffee use data to understand store performance, identify inventory risks, and evaluate opportunities for expansion?
+Charlie's Coffee operates six stores across San Francisco. How can the business use its data to:
 
-The workshop explored retail location decisions using sales, inventory, market demand, and supporting business information.
+- Compare store revenue and performance?
+- Understand neighborhood coffee-market demand?
+- Identify products at risk of running out?
+- Support more informed retail expansion decisions?
 
-## 🛠️ Tools & Technologies
+## 🛠️ Technology Stack
 
-- **Codex:** AI coding agent for exploring data and building the dashboard
-- **Google Data Agent Kit:** Agent tooling and integrations
-- **MCP (Model Context Protocol):** Connecting the coding agent to external tools
-- **BigQuery:** Historical sales and market demand analysis
-- **AlloyDB:** Inventory and stock movement data
-- **Google Cloud Run:** Web application deployment
-- **HTML, CSS & JavaScript:** Interactive dashboard interface
+| Technology | Purpose |
+|---|---|
+| OpenAI Codex | AI-assisted analysis and dashboard development |
+| Google Data Agent Kit | Workshop agent tooling |
+| Model Context Protocol (MCP) | Connecting AI tools to external data services |
+| Google BigQuery | Historical sales and market-demand analysis |
+| AlloyDB | Inventory and stock-movement information |
+| HTML, CSS, JavaScript | Interactive dashboard |
+| Google Cloud Run | Initial workshop deployment |
+| GitHub Pages | Public portfolio hosting |
 
 ## 📊 Dashboard Features
 
-**1. Store Performance Overview**
-- Weekly revenue across six stores
-- Top-performing locations
-- Store-level revenue comparisons
+### 1. Store Performance
 
-**2. Sales & Market Analysis**
-- Revenue trends and comparisons
-- Neighborhood coffee market demand
-- Estimated market capture by location
+Compare average weekly revenue across six stores and identify top-performing locations.
 
-**3. Inventory Monitoring**
-- Products below reorder thresholds
-- Stockout alerts
-- Replenishment insights and recommended controls
+### 2. Market Demand Analysis
 
-## 🤖 Where AI Fits In
+Explore neighborhood-level estimated coffee spending and compare store revenue with estimated market capture.
 
-The workshop demonstrated how a coding agent can use MCP-connected tools to work with cloud data sources and support business analysis through natural-language instructions.
+### 3. Inventory Monitoring
 
-I used this workflow to explore retail data and create an interactive dashboard that presents key findings.
+Identify products below reorder thresholds, investigate replenishment pressure, and review recommended inventory controls.
 
-The dashboard itself is a standalone HTML application with embedded data snapshots. It does not require a live BigQuery connection when opened.
+## 🔎 Selected Findings
 
-## 💡 Key Learnings
+**Store performance**
+- Six-store average weekly revenue: approximately $152.9K.
+- Mission District leads with approximately $32.4K in average weekly revenue.
 
-- AI agents can help accelerate data exploration and analysis.
-- MCP enables AI applications to interact with external tools and services.
-- Business context and human judgment remain essential when interpreting AI-assisted analysis.
-- Building an end-to-end project is an effective way to learn new technologies.
+**Market demand**
+- North Beach has the highest estimated market capture among the six stores at 26%.
+- High neighborhood demand does not automatically translate into the highest store revenue.
 
-## 🚀 Live Dashboard
+**Inventory**
+- Three products are below reorder thresholds.
+- Ceremonial Matcha Latte at North Beach has zero units on hand.
 
-The interactive dashboard is available in this repository as `charlies-dashboard.html`.
+These findings reflect the workshop data snapshot and should not be interpreted as live operational metrics.
 
-A public GitHub Pages demo will be added soon.
+## 🤖 AI-Assisted Workflow
 
-*Note: This deployment uses a temporary workshop cloud environment and may not remain available permanently.*
+1. Explore retail business questions using Codex.
+2. Use MCP-connected tools to access cloud data sources.
+3. Analyze sales, market demand, and inventory information.
+4. Translate the results into an interactive dashboard.
+5. Publish a standalone version using GitHub Pages.
 
-## 📁 Project Files
+**Architecture overview**
 
-`charlies-dashboard.html` — Standalone interactive dashboard built with HTML, CSS, and JavaScript.
+Business Questions → Codex + MCP Tools → Cloud Data Sources → Analysis → Interactive Dashboard
+
+The published dashboard contains embedded data summaries. It does not make live BigQuery or AlloyDB requests.
+
+## 💡 What I Learned
+
+- How AI agents can support data exploration through natural-language instructions.
+- How MCP connects AI workflows with external tools and data sources.
+- How to combine business understanding with AI-assisted development.
+- Why validating metrics and understanding data limitations matters.
+- How to publish and share an interactive analytics project.
+
+## 📂 Repository Structure
+
+```text
+charlies-coffee-ai-location-analysis/
+├── README.md
+└── charlies-dashboard.html
+```
+
+## ▶️ Run Locally
+
+Download `charlies-dashboard.html` and open it in a modern web browser. No database credentials or local server are required.
 
 ## 🙌 Acknowledgments
 
-Created as part of **The Gen Academy's Google Data Agent Kit workshop**, facilitated by Arvind Narayanamurthy, Aishwarya Srinivasan, and Jeff Nelson.
+Built as a learning project during **The Gen Academy's Google Data Agent Kit workshop** with Aishwarya Srinivasan, Arvind Narayanamurthy, and Jeff Nelson.
 
-This is a workshop-based learning project showcasing hands-on experience with AI-assisted data analytics.
+The workshop provided the learning environment and guided exercises. The dashboard was developed using AI-assisted tooling as part of that experience.
 
 ---
 
-**Built by Sai Deepthi P S G**
+**Sai Deepthi P S G**
 
-Exploring Data Science, Analytics, and AI through practical projects.
+*Learning, building, and sharing practical projects in Data Science, Analytics, and AI.*
